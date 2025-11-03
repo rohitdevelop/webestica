@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion, VariableTransitions } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import React, { FC } from "react";
 
 // --- 1. Type Definitions (Interfaces) ---
