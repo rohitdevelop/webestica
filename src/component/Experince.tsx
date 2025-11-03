@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, VariableTransitions } from "framer-motion";
 import React, { FC } from "react";
 
 // --- 1. Type Definitions (Interfaces) ---
@@ -28,7 +28,7 @@ interface Project {
 
 // --- 2. Framer Motion Variants (Remains the same) ---
 
-const projectContainerVariants = {
+const projectContainerVariants: Variants = {
     hidden: { opacity: 0, y: 50 },
     visible: { 
         opacity: 1, 
@@ -42,7 +42,7 @@ const projectContainerVariants = {
     },
 };
 
-const textItemVariants = {
+const textItemVariants : Variants = {
     hidden: { opacity: 0, y: 10 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
