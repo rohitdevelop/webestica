@@ -113,7 +113,7 @@ const WorkHighlights: FC = () => {
                 viewport={{ once: true, amount: 0.5 }}
                 transition={{ duration: 0.6 }}
             >
-                Work **highlights**
+                Work highlights
             </motion.h1>
 
             {/* Project Sections */}
