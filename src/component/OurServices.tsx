@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState,   } from "react";
 import Image from "next/image"; // Changed to 'next/image' for optimization
 import { motion } from "framer-motion"; // Import motion
 
@@ -103,7 +103,7 @@ const OurServices = () => {
                   width={400}
                   height={400}
                   className="object-contain drop-shadow-2xl"
-                />
+                /> 
               </motion.div>
 
               {/* Subtle Glow Effect on Hover (Enhanced with motion opacity) */}

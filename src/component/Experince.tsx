@@ -86,7 +86,7 @@ export default function WorkHighlights() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
         >
-            Work **highlights**
+            Work highlights
         </motion.h1>
 
         {/* Project Sections */}
